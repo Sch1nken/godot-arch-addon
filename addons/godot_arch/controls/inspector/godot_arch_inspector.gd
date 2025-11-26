@@ -2,7 +2,6 @@
 extends PanelContainer
 class_name GodotArchInspector
 
-var godot_arch_report_entry_display : PackedScene = preload("res://addons/godot_arch/controls/report_entry_display/godot_arch_report_entry_display.tscn")
 @onready var execute_button : Button = %ExecuteButton
 
 const POPUP_MENU_OPEN_FILE := 0
